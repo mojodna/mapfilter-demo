@@ -4,5 +4,4 @@
 
 ```bash
 npm install
-npm install path/to/mapfilter
 ```
