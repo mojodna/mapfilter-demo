@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='UTF-8'/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>MapFilter</title>
+
+    <!-- polyfills for legacy browsers -->
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/aight/1.1.1/aight.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/sizzle/1.10.9/sizzle.min.js"></script>
+    <![endif]-->
+
+    <!-- polyfill Intl for Safari mainly -->
+    <script src="https://cdn.polyfill.io/v2/polyfill.js?features=Intl"></script>
+
+    <style>
+    :focus {
+      outline: none;
+    }
+    body, html {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    </style>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script src='/bundle.js'></script>
+  </body>
+
+</html>
